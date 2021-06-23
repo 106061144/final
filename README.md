@@ -27,7 +27,8 @@ ID 0. Therefore, BBcar would not stop here. The picture shown below is the scree
 
 
 (3) Position Calibration:
-This part is same as that in homework 4. BBcar would calibrate its position automatically till it faces directly from the AprilTag.
+This part is same as that in homework 4. BBcar would calibrate its position automatically till it faces directly and perpendicularly 
+from the AprilTag.
 
 (4) Line following with TF human identification:
 The subtask is similar to the first one, which makes the car follow a white line. The different part is that I use the human 
