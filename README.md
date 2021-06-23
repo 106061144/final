@@ -30,3 +30,5 @@ This part is same as that in homework 4. BBcar would calibrate its position auto
 The subtask is similar to the first one, which makes the car follow a white line. The different part is that I use the human 
 identification of TF to identify a human in front of BBcar. In the video, I place a man's photo to let BBcar detect. Once BBcar detect 
 the man, it would stop running and end the project demo.
+![image](https://user-images.githubusercontent.com/55796795/123086176-b04bd300-d455-11eb-8b5a-8e34b308d7ba.png)
+
