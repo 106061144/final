@@ -7,6 +7,7 @@ I divided the project into four subtasks. When I start to demo, I would use keyb
 Then, the screen would pop out a messenge to choose AprilTag's ID, I would demonstrate this part in the following. And these messenge 
 would be transmitted to board via XBee, to trigger the whole project process. After each subtask is finished, LED1 would flash for one 
 second. Then, it will enter the next subtask automatically.
+
 ![image](https://user-images.githubusercontent.com/55796795/123086675-4c75da00-d456-11eb-89e5-814f014f39df.png)
 It is the beginning page. 
 
