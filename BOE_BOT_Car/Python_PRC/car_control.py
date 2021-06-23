@@ -20,7 +20,7 @@ def get():
         if k!='':break
     if k=='\x1b':
         d1 = input()
-        if d1=="1":
+        if d1=="1": # begin to demo
             print("Choose a road ID:")
             d2 = input()
             line = "/PART/run " + d1 + " " + d2 + " \n"
@@ -29,8 +29,6 @@ def get():
         
         print(line)
         s.write(line.encode())
-        #time.sleep(1)
-        #s.write("/stop/run \n".encode())
     elif k=='q':
         print ("quit")
         return 0
