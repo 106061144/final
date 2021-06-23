@@ -4,7 +4,7 @@ The complete demo video is posted in Youtube. Here is the link: https://youtu.be
 From here, I would show how I implement my final project.
 
 I divided the project into four subtasks. When I start to demo, I would use keyboard to key in the starting command, which is esc+"1".
-Then, the screen would pop out a messenge to choose AprilTag's ID, I would demonstrate this part in the following. And these messenge 
+Then, the screen would pop out a messenge to choose AprilTag's ID, I would demonstrate this part in the following. And these messenges 
 would be transmitted to board via XBee, to trigger the whole project process. After each subtask is finished, LED1 would flash for one 
 second. Then, it will enter the next subtask automatically.
 
