@@ -9,7 +9,7 @@ would be transmitted to board via XBee, to trigger the whole project process. Af
 second. Then, it will enter the next subtask automatically.
 
 (1) Line following:
-The BBcar would follow a white line to obstacles. After BBcar is driven to about 20cm from the obstacle, it would stop and enter the 
+The BBcar would follow a white line to obstacles. After BBcar is driven about 20cm from the obstacle, it would stop and enter the 
 next part.
 
 (2) Circling:
