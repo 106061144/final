@@ -11,8 +11,17 @@ second. Then, it will enter the next subtask automatically.
 (1) Line following:
 The BBcar would follow a white line to obstacles. After BBcar is driven to about 20cm from the obstacle, it would stop and enter the 
 next part.
+
 (2) Circling:
 The target of this part is make BBcar circle an obstacle. It is designated that once the car is about 20 cm straightly from an object, 
 it would turn right for 90 degree to avoid crashing; otherwise, it would run in certain curve. In this part, I add the implementation 
 of  AprilTag's ID detection. I placed two AprilTags at some positions where BBcar can scan them. The car would record the scanned ID 
 and transmit to PC. When the received ID is correct, BBcar would stop in front of the AprilTag.
+
+(3) Position Calibration:
+This part is same as that in homework 4. BBcar would calibrate its position automatically till it faces directly from the AprilTag.
+
+(4) Line following with TF human identification:
+The subtask is similar to the first one, which makes the car follow a white line. The different part is that I use the human 
+identification of TF to identify a human in front of BBcar. In the video, I place a man's photo to let BBcar detect. Once BBcar detect 
+the man, it would stop running and end the project demo.
