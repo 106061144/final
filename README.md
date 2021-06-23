@@ -17,6 +17,11 @@ The target of this part is make BBcar circle an obstacle. It is designated that 
 it would turn right for 90 degree to avoid crashing; otherwise, it would run in certain curve. In this part, I add the implementation 
 of  AprilTag's ID detection. I placed two AprilTags at some positions where BBcar can scan them. The car would record the scanned ID 
 and transmit to PC. When the received ID is correct, BBcar would stop in front of the AprilTag.
+![image](https://user-images.githubusercontent.com/55796795/123085344-b4c3bc00-d454-11eb-9f5f-daa3ee535bc5.png)
+The picture is PC's screen when BBcar detect the AprilTag with ID 1. Since I key "0" in the beginning, BBcar would stop when detecting 
+ID 0. Therefore, BBcar would not stop here. The picture shown below is the screen when BBcar detect ID 0.
+![image](https://user-images.githubusercontent.com/55796795/123085880-56e3a400-d455-11eb-8f41-7ee970aa8b3a.png)
+
 
 (3) Position Calibration:
 This part is same as that in homework 4. BBcar would calibrate its position automatically till it faces directly from the AprilTag.
